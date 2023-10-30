@@ -34,7 +34,6 @@
   /* Sezione Planning */
 
   .row {
-    padding: 25px 0;
     width: 70%;
     margin: 0 auto;
   }
@@ -52,5 +51,23 @@
     max-width: 100%;
     margin-bottom: 0;
   }
-}
 
+  /* Sezione "Testimonials" */
+  
+  div > img {
+    max-width: 100%;
+  }
+  
+  .testimonials .row {
+    flex-wrap: nowrap;
+  }
+  
+  .testimonials.card {
+    width: 50%;
+  }
+
+  .testimonials .card.boy {
+    margin-top: 250px;
+  }
+
+}

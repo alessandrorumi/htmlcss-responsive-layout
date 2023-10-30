@@ -15,11 +15,10 @@
     flex-wrap: wrap;
   }
 
-  .row > div {
+  .planning .row > div {
     width: calc((100% / 3) - 20px);
     margin: 0 10px 20px 10px;
   }
-
 
   #demo {
     width: calc((100% / 1.5) - 20px);
@@ -33,6 +32,10 @@
     display: flex;
     justify-content: start;
     margin-left: -15px;
+  }
+
+  .planning-content {
+    overflow-y: auto;
   }
   
   .planning img {

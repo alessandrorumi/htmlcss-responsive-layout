@@ -8,6 +8,22 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+ul {
+  display: none;
+}
+
+.row {
+  padding: 50px 10px;
+}
+
+.card {
+  background-color: #b5ddff;
+  border-radius: 25px;
+  padding: 35px;
+  margin-bottom: 25px;
+  margin: 20px 10px
+}
+
 /* MOBILE */
 
 /* Header */
@@ -30,25 +46,10 @@ header i {
   font-size: 25px;
 }
 
-ul {
-  display: none;
-}
-
 /* Sezione Planning */
 
 .planning {
   width: 100%;
-}
-
-.row {
-  margin: 50px 25px;
-}
-
-.card {
-  background-color: #b5ddff;
-  border-radius: 25px;
-  padding: 35px;
-  margin-bottom: 25px;
 }
 
 h2 {
@@ -65,6 +66,7 @@ p {
 }
 
 /* Planning Card Phone */
+
 
 #demo {
   padding-bottom: 0;
@@ -88,18 +90,69 @@ p {
   text-decoration: none;
   }
 
-  .planning img {
-    max-width: 100%;
-    margin-bottom: -5px;
-  }
+div > img {
+  max-width: 100%;
+  margin-bottom: -5px;
+}
 
-  /* Planning Card "Clean Code"*/
+/* Planning Card "Clean Code"*/
 
-  .planning-content .icon {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.planning-content .icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  .planning i:not(.fa-apple) {
-    font-size: 60px;
-  }
+.planning i:not(.fa-apple) {
+  font-size: 60px;
+}
+
+/* Sezione "Testimonials" */
+
+.container {
+  background-color: #9792e4;
+}
+
+.testimonials .card {
+  background-color: transparent;
+}
+
+.testimonials .card.boy {
+  background-color: white;
+}
+
+.girl h2 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+}
+
+.boy h2 {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.testimonials-content {
+  margin: 60px 0 30px 0;
+}
+
+.girl p {
+  color: white;
+  font-weight: normal;
+}
+
+.boy p {
+  color: black;
+  font-weight: normal;
+}
+
+.testimonials .icon {
+  text-align: center;
+}
+
+.fa-arrow-down {
+  margin-top: 50px;
+  background-color: #9792e4;
+  border-radius: 50%;
+  padding: 18px;
+}
