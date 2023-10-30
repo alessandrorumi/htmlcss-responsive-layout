@@ -1,12 +1,12 @@
 /* PC */
 
-@media all and (min-width: 1201px) {
+@media all and (min-width: 1199px) {
   
   /* Header */
-  
-  .header-container {
-    padding: 0 15%;
 
+  .header-container {
+   width: 75%;
+   margin: 0 auto;
   }
 
   .fa-bars {
@@ -30,4 +30,27 @@
     background-color: white;
     border-radius: 20px;
   }
+
+  /* Sezione Planning */
+
+  .row {
+    padding: 25px 0;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #demo {
+    display: flex;
+  }
+
+  .planning-phone {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .planning img {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
 }
+

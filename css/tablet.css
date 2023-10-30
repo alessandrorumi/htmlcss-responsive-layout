@@ -7,4 +7,36 @@
   ul {
     display: none;
   }
+
+  /* Sezione Planning */
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row > div {
+    width: calc((100% / 3) - 20px);
+    margin: 0 10px 20px 10px;
+  }
+
+
+  #demo {
+    width: calc((100% / 1.5) - 20px);
+  }
+
+  .planning .link {
+    text-align: left;
+  }
+
+  .phone-image {
+    display: flex;
+    justify-content: start;
+    margin-left: -15px;
+  }
+  
+  .planning img {
+    max-width: 50%;
+    margin-bottom: 0;
+  }
 }

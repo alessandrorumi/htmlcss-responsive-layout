@@ -11,9 +11,14 @@
 /* MOBILE */
 
 /* Header */
+
+header {
+  width: 100%;
+  background-color: rgb(3, 126, 255);
+}
+
 .header-container {
   height: 60px;
-  background-color: rgb(3, 126, 255);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -36,13 +41,13 @@ ul {
 }
 
 .row {
-  padding: 35px 25px 0;
+  margin: 50px 25px;
 }
 
 .card {
   background-color: #b5ddff;
-  border-radius: 20px;
-  padding: 25px 25px 0 25px;
+  border-radius: 25px;
+  padding: 35px;
   margin-bottom: 25px;
 }
 
@@ -53,12 +58,21 @@ h2 {
 }
 
 p {
-  line-height: 30px;
+  line-height: 23px;
   color: rgb(70, 70, 70);
   font-weight: bold;
+  font-size: 14px;
 }
 
 /* Planning Card Phone */
+
+#demo {
+  padding-bottom: 0;
+}
+
+#demo h2 {
+  text-align: left;
+}
 
 .planning .link {
   margin: 25px 0;
@@ -75,7 +89,7 @@ p {
   }
 
   .planning img {
-    width: 100%;
+    max-width: 100%;
     margin-bottom: -5px;
   }
 
@@ -83,8 +97,9 @@ p {
 
   .planning-content .icon {
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .planning i:not(.fa-apple) {
-    font-size: 80px;
+    font-size: 60px;
   }
