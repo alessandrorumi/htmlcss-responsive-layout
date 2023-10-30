@@ -1,6 +1,9 @@
 /* PC */
 
 @media all and (min-width: 1201px) {
+  
+  /* Header */
+  
   .header-container {
     padding: 0 15%;
 

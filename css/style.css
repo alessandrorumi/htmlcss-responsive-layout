@@ -10,9 +10,10 @@
 
 /* MOBILE */
 
+/* Header */
 .header-container {
   height: 60px;
-  background-color: rgb(33, 141, 255);
+  background-color: rgb(3, 126, 255);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -27,3 +28,63 @@ header i {
 ul {
   display: none;
 }
+
+/* Sezione Planning */
+
+.planning {
+  width: 100%;
+}
+
+.row {
+  padding: 35px 25px 0;
+}
+
+.card {
+  background-color: #b5ddff;
+  border-radius: 20px;
+  padding: 25px 25px 0 25px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: rgb(3, 126, 255);
+  text-align: center;
+}
+
+p {
+  line-height: 30px;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+}
+
+/* Planning Card Phone */
+
+.planning .link {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.planning a {
+  background-color: rgb(3, 126, 255);
+  color: white;
+  font-weight: bold;
+  padding: 5px 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  }
+
+  .planning img {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+
+  /* Planning Card "Clean Code"*/
+
+  .planning-content .icon {
+    text-align: center;
+  }
+
+  .planning i:not(.fa-apple) {
+    font-size: 80px;
+  }

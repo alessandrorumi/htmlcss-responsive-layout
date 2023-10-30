@@ -2,6 +2,8 @@
 
 @media all and (min-width: 481px) {
 
+  /* Header */
+
   ul {
     display: none;
   }
