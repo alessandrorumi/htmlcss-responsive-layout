@@ -1,0 +1,30 @@
+/* PC */
+
+@media all and (min-width: 1201px) {
+  .header-container {
+    padding: 0 15%;
+
+  }
+
+  .fa-bars {
+    display: none;
+  } 
+   
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  #get-started > a {
+    color: black;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 20px;
+  }
+}

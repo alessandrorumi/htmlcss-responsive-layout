@@ -7,3 +7,23 @@
 :root {
   font-family: 'PT Sans', sans-serif;
 }
+
+/* MOBILE */
+
+.header-container {
+  height: 60px;
+  background-color: rgb(33, 141, 255);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+header i {
+  font-size: 25px;
+}
+
+ul {
+  display: none;
+}

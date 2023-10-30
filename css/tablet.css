@@ -1,0 +1,8 @@
+/* TABLET */
+
+@media all and (min-width: 481px) {
+
+  ul {
+    display: none;
+  }
+}
