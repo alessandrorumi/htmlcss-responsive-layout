@@ -5,8 +5,12 @@
   /* Header */
 
   .header-container {
-   width: 75%;
+   width: 70%;
    margin: 0 auto;
+  }
+
+  header a {
+    padding: 5px;
   }
 
   .fa-bars {
@@ -81,4 +85,7 @@
 /* Sezione "About Us" */
 
 /* Sezione "Get Started" */
+
+/* Footer */
+
 }

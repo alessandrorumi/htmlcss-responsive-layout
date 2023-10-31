@@ -39,7 +39,7 @@
   }
   
   .planning img {
-    max-width: 325px;
+    max-width: 250px;
     margin-bottom: 0;
     width: 100%;
   }
@@ -75,9 +75,21 @@
   }
 
   .row > div {
-    padding: 0 25px;
+    padding: 25px;
   }
   
 /* Sezione "Get Started" */
+
+  .get-started .row {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+
+  footer .row {
+    width: 55%;
+    margin: 0 auto;
+  }
 
 }
