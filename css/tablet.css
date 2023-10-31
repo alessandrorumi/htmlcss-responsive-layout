@@ -63,4 +63,9 @@
 
 /* Sezione "Features" */
 
+.features .card {
+  width: calc((100% / 2) - 20px);
+  margin: 10px;
+}
+
 }

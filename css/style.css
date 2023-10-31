@@ -76,12 +76,12 @@ p {
   text-align: left;
 }
 
-.planning .link {
+.link {
   margin: 25px 0;
   text-align: center;
 }
 
-.planning a {
+a {
   background-color: rgb(3, 126, 255);
   color: white;
   font-weight: bold;
@@ -229,3 +229,38 @@ h3 {
 }
 
 /* Sezione "Features" */
+
+.features h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 10px 25px 10px;
+  color: white;
+}
+
+.features .card {
+  background-color: white;
+}
+
+.number {
+  color: #9792e4;
+  font-size: 45px;font-weight: bold;
+}
+
+.features h3 {
+  color: #9792e4;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.features p {
+  font-weight: normal;
+}
+
+.features a {
+  background-color: #9792e4;
+  color: white;
+}
+
+.features .link {
+  text-align: left;
+}

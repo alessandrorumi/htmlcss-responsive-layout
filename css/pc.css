@@ -73,4 +73,9 @@
 
   /* Sezione "Testimonials Expert Partners" */
 
+  .features .card {
+    width: calc((100% / 3) - 20px);
+    margin: 10px;
+  }
+
 }
