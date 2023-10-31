@@ -311,3 +311,38 @@ h3 {
 .about-us a {
   background-color: #9792e4;
 }
+
+/* Sezione "Get Started" */
+
+.get-started h4 {
+opacity: .6;
+font-weight: normal;
+color: lightgrey;
+font-size: 18px;
+}
+
+.get-started h3 {
+  color: white;
+}
+
+.get-started h2 {
+  color: gold;
+  font-size: 60px;
+}
+
+.get-started p {
+  color: white;
+  font-weight: normal;
+}
+
+.get-started a {
+  text-align: center;
+  background-color: white;
+  color: #9792e4;
+  padding: 16px 50px;
+  border-radius: 30px;
+}
+
+.get-started .link{
+  margin: 45px 0;
+}
