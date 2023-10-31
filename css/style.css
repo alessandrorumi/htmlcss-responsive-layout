@@ -52,28 +52,25 @@ header i {
   width: 100%;
 }
 
-h2 {
+h5 {
   margin-bottom: 20px;
   color: rgb(3, 126, 255);
   text-align: center;
+  font-size: 20px;
 }
 
 p {
-  line-height: 28px;
+  line-height: 32px;
   color: rgb(70, 70, 70);
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
+  text-align: left;
 }
 
 /* Planning Card Phone */
 
-
 #demo {
   padding-bottom: 0;
-}
-
-#demo h2 {
-  text-align: left;
 }
 
 .link {
@@ -96,7 +93,11 @@ div > img {
   margin-bottom: -5px;
 }
 
-/* Planning Card "Clean Code"*/
+/* Planning Card "Altre Card"*/
+
+.planning p {
+  font-weight: bold;
+}
 
 .planning-content .icon {
   text-align: center;
@@ -130,16 +131,16 @@ div > img {
   text-align: center;
 }
 
-.girl h2 {
+h4 {
   color: white;
   text-align: left;
   font-size: 30px;
+  margin: 25px 0;
 }
 
-.boy h2 {
+.boy h4 {
   color: black;
   text-align: center;
-  font-size: 20px;
 }
 
 .testimonials-content {
@@ -148,12 +149,7 @@ div > img {
 
 .girl p {
   color: white;
-  font-weight: normal;
-}
-
-.boy p {
-  color: black;
-  font-weight: normal;
+  text-align: left;
 }
 
 .strategic-planning.img {
@@ -173,6 +169,13 @@ div > img {
 
 /* Sezione "Testimonials Expert Partners" */
 
+h6 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
 .testimonials-expert .container {
   background-color: white;
 }
@@ -185,13 +188,8 @@ div > img {
   background-color: white;
 }
 
-h4 {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   color: #9792e4;
   text-align: center;
   margin-bottom: 25px;
@@ -210,13 +208,12 @@ h3 {
 }
 
 .testimonials-expert p {
-  font-weight: normal;
-  text-align: center;
   color: white;
 }
 
-.card.title p {
-  color: black;
+#subtitle {
+  color: #333333;
+  text-align: center;
 }
 
 .testimonials-expert i {
@@ -225,17 +222,17 @@ h3 {
 
 #name {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 20px;
+  text-align: left;
 }
 
 /* Sezione "Features" */
 
-.features h2 {
-  font-size: 40px;
-  text-align: center;
-  padding: 50px 10px 0 10px;
-  color: white;
+h2 {
+  font-size: 50px;
+  color: #9792e4;
+  margin: 15px 0 25px;
 }
 
 .features .card {
@@ -248,13 +245,15 @@ h3 {
 }
 
 .features h3 {
-  color: #9792e4;
-  text-align: left;
-  margin: 15px 0;
+  color: white;
+  text-align: center;
+  padding: 50px 0 25px;
+  margin-bottom: 0;
 }
 
-.features p {
-  font-weight: normal;
+.features h4 {
+  color: #9792e4;
+  margin: 15px 0;
 }
 
 .features a {
@@ -270,15 +269,6 @@ h3 {
 
 .about-us .container {
   background-color: white;
-}
-
-.about-us h2 {
-  color: #9792e4;
-  font-size: 40px;
-}
-
-.about-us p {
-  line-height: 35px;
 }
 
 .image-and-quote {
@@ -307,6 +297,8 @@ h3 {
 
 #quote {
   text-align: left;
+  color: #9792e4;
+  margin-bottom: 20px;
 }
 
 .about-us a {
@@ -316,7 +308,7 @@ h3 {
 
 /* Sezione "Get Started" */
 
-.get-started h4 {
+.get-started h6 {
 opacity: .6;
 font-weight: normal;
 color: lightgrey;
@@ -329,12 +321,12 @@ font-size: 18px;
 
 .get-started h2 {
   color: gold;
-  font-size: 60px;
+  font-size: 70px;
+  text-align: center;
 }
 
 .get-started p {
   color: white;
-  font-weight: normal;
   text-align: center;
 }
 
@@ -378,7 +370,6 @@ footer .row {
 
 footer p {
   color: white;
-  font-weight: normal;
   text-align: center;
 }
 
