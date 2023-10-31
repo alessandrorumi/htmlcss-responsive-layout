@@ -13,7 +13,7 @@ ul {
 }
 
 .row {
-  padding: 50px 10px;
+  padding: 40px 20px;
 }
 
 .card {
@@ -233,7 +233,7 @@ h3 {
 .features h2 {
   font-size: 40px;
   text-align: center;
-  padding: 50px 10px 25px 10px;
+  padding: 50px 10px 0 10px;
   color: white;
 }
 
@@ -263,4 +263,51 @@ h3 {
 
 .features .link {
   text-align: left;
+}
+
+/* Sezione "About Us" */
+
+.about-us .container {
+  background-color: white;
+}
+
+.about-us h2 {
+  color: #9792e4;
+  font-size: 40px;
+}
+
+.about-us p {
+  line-height: 35px;
+}
+
+.image-and-quote {
+  position: relative;
+}
+
+.about-us .image {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.about-us img {
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+  width: 200px;
+  
+}
+
+.fa-quote-left {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  font-size: 60px;
+}
+
+#quote {
+  text-align: left;
+}
+
+.about-us a {
+  background-color: #9792e4;
 }

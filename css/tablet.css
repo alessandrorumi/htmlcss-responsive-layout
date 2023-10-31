@@ -68,4 +68,14 @@
   margin: 10px;
 }
 
+/* Sezione "About Us" */
+
+  .about-us .row {
+    flex-wrap: nowrap;
+  }
+
+  .row > div {
+    padding: 0 25px;
+  }
+
 }
