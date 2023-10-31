@@ -39,7 +39,28 @@
   }
   
   .planning img {
-    max-width: 50%;
+    max-width: 325px;
     margin-bottom: 0;
+    width: 100%;
   }
+
+  /* Sezione "Testimonials Expert Partners" */
+
+  .testimonials-expert .card:not(.card.title) {
+    display: flex;
+    align-items: center;
+  }
+
+  .nat.content,
+  .celia.content,
+  .bob.content {
+    max-width: 60%;
+  }
+
+  .testimonials-expert .image {
+    margin: 0 auto;
+  }
+
+/* Sezione "Features" */
+
 }

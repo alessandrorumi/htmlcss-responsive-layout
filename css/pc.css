@@ -48,8 +48,9 @@
   }
 
   .planning img {
-    max-width: 100%;
+    max-width: 450px;
     margin-bottom: 0;
+    width: 100%;
   }
 
   /* Sezione "Testimonials" */
@@ -62,12 +63,14 @@
     flex-wrap: nowrap;
   }
   
-  .testimonials.card {
+  .testimonials .card {
     width: 50%;
   }
 
   .testimonials .card.boy {
     margin-top: 250px;
   }
+
+  /* Sezione "Testimonials Expert Partners" */
 
 }

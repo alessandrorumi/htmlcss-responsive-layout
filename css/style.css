@@ -59,10 +59,10 @@ h2 {
 }
 
 p {
-  line-height: 23px;
+  line-height: 28px;
   color: rgb(70, 70, 70);
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Planning Card Phone */
@@ -120,6 +120,15 @@ div > img {
   background-color: white;
 }
 
+.testimonials .card {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.testimonials p {
+  text-align: center;
+}
+
 .girl h2 {
   color: white;
   text-align: left;
@@ -146,6 +155,10 @@ div > img {
   font-weight: normal;
 }
 
+.strategic-planning.img {
+  text-align: center;
+}
+
 .testimonials .icon {
   text-align: center;
 }
@@ -156,3 +169,63 @@ div > img {
   border-radius: 50%;
   padding: 18px;
 }
+
+/* Sezione "Testimonials Expert Partners" */
+
+.testimonials-expert .container {
+  background-color: white;
+}
+
+.testimonials-expert .card {
+  background-color: #9792e4;
+}
+
+.card.title {
+  background-color: white;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #9792e4;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.testimonials-expert .image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 25px;
+}
+
+.testimonials-expert img {
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials-expert p {
+  font-weight: normal;
+  text-align: center;
+  color: white;
+}
+
+.card.title p {
+  color: black;
+}
+
+.testimonials-expert i {
+  font-size: 25px;
+}
+
+#name {
+  color: white;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* Sezione "Features" */
