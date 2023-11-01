@@ -1,0 +1,10 @@
+ @media all and (min-width: 481px) and (max-width: 654px) {
+  .card {
+    margin: 25px 15px;
+  }
+
+  .phone-image img {
+    max-width: 50%;
+  }
+
+ }

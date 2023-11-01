@@ -150,6 +150,11 @@ header i {
   background-color: white;
 }
 
+.boy img,
+.girl img {
+  width: 100%;
+}
+
 .testimonials .card {
   margin: 0 auto;
   width: 100%;

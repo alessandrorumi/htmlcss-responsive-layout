@@ -1,6 +1,6 @@
 /* TABLET */
 
-@media all and (min-width: 481px) {
+@media all and (min-width: 655px) {
 
   /* Header */
 
@@ -18,10 +18,12 @@
   .planning .row > div {
     width: calc((100% / 3) - 20px);
     margin: 0 10px 20px 10px;
+    min-width: 185px;
   }
 
   #demo {
     width: calc((100% / 1.5) - 20px);
+    min-width: 390px;
   }
 
   .planning .link {
@@ -34,6 +36,10 @@
     margin-left: -15px;
   }
 
+  .phone-image img {
+    max-width: 70%;
+  }
+
   .planning-content {
     overflow-y: auto;
   }
@@ -42,6 +48,15 @@
     max-width: 250px;
     margin-bottom: 0;
     width: 100%;
+  }
+
+  /* Sezione "Testimonials" */
+
+
+  .boy img,
+  .girl img {
+    width: 65%;
+    margin: 0 auto;
   }
 
   /* Sezione "Testimonials Expert Partners" */
