@@ -1,3 +1,5 @@
+/* Stili Generali di Pagina */
+
 * {
   margin: 0;
   padding: 0;
@@ -20,9 +22,60 @@ ul {
   background-color: #b5ddff;
   border-radius: 25px;
   padding: 35px;
-  margin-bottom: 25px;
-  margin: 20px 10px
+  margin: 25px 15px;
 }
+
+h2 {
+  font-size: 50px;
+  color: #9792e4;
+  margin: 15px 0 25px;
+}
+
+h3 {
+  font-size: 40px;
+  color: #9792e4;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+h4 {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  margin: 25px 0;
+}
+
+h5 {
+  margin-bottom: 20px;
+  color: rgb(3, 126, 255);
+  text-align: center;
+  font-size: 20px;
+}
+
+h6 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+p {
+  line-height: 32px;
+  color: rgb(70, 70, 70);
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+}
+
+a {
+  background-color: rgb(3, 126, 255);
+  color: white;
+  font-weight: bold;
+  padding: 5px 40px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  }
 
 /* MOBILE */
 
@@ -52,21 +105,6 @@ header i {
   width: 100%;
 }
 
-h5 {
-  margin-bottom: 20px;
-  color: rgb(3, 126, 255);
-  text-align: center;
-  font-size: 20px;
-}
-
-p {
-  line-height: 32px;
-  color: rgb(70, 70, 70);
-  font-weight: normal;
-  font-size: 16px;
-  text-align: left;
-}
-
 /* Planning Card Phone */
 
 #demo {
@@ -78,17 +116,7 @@ p {
   text-align: center;
 }
 
-a {
-  background-color: rgb(3, 126, 255);
-  color: white;
-  font-weight: bold;
-  padding: 5px 40px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 14px;
-  }
-
-div > img {
+.phone-image img {
   max-width: 100%;
   margin-bottom: -5px;
 }
@@ -114,11 +142,11 @@ div > img {
   background-color: #9792e4;
 }
 
-.testimonials .card {
+.card.girl {
   background-color: transparent;
 }
 
-.testimonials .card.boy {
+.card.boy {
   background-color: white;
 }
 
@@ -129,13 +157,6 @@ div > img {
 
 .testimonials p {
   text-align: center;
-}
-
-h4 {
-  color: white;
-  text-align: left;
-  font-size: 30px;
-  margin: 25px 0;
 }
 
 .boy h4 {
@@ -152,7 +173,7 @@ h4 {
   text-align: left;
 }
 
-.strategic-planning.img {
+.strategic-planning.image {
   text-align: center;
 }
 
@@ -169,30 +190,16 @@ h4 {
 
 /* Sezione "Testimonials Expert Partners" */
 
-h6 {
-  text-align: center;
-  font-weight: normal;
-  font-size: 18px;
-  margin-bottom: 25px;
+.testimonials-expert .container {
+  background-color: white;
 }
 
-.testimonials-expert .container {
+.testimonials-expert .card.title {
   background-color: white;
 }
 
 .testimonials-expert .card {
   background-color: #9792e4;
-}
-
-.card.title {
-  background-color: white;
-}
-
-h3 {
-  font-size: 40px;
-  color: #9792e4;
-  text-align: center;
-  margin-bottom: 25px;
 }
 
 .testimonials-expert .image {
@@ -201,10 +208,12 @@ h3 {
   margin: 0 auto 25px;
 }
 
-.testimonials-expert img {
+.testimonials-expert img,
+.about-us img {
   border-radius: 50%;
   height: 100%;
   object-fit: cover;
+  width: 200px;
 }
 
 .testimonials-expert p {
@@ -229,12 +238,6 @@ h3 {
 
 /* Sezione "Features" */
 
-h2 {
-  font-size: 50px;
-  color: #9792e4;
-  margin: 15px 0 25px;
-}
-
 .features .card {
   background-color: white;
 }
@@ -248,7 +251,7 @@ h2 {
   color: white;
   text-align: center;
   padding: 50px 0 25px;
-  margin-bottom: 0;
+  margin: 0 10px
 }
 
 .features h4 {
@@ -258,7 +261,6 @@ h2 {
 
 .features a {
   background-color: #9792e4;
-  color: white;
 }
 
 .features .link {
@@ -278,14 +280,6 @@ h2 {
 .about-us .image {
   margin-top: 35px;
   margin-bottom: 15px;
-}
-
-.about-us img {
-  border-radius: 50%;
-  height: 100%;
-  object-fit: cover;
-  width: 200px;
-  
 }
 
 .about-us .fa-quote-left {
